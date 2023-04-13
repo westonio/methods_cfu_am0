@@ -24,10 +24,10 @@ def custom_greeting(name)
     return "Good morning #{name}!"
 end 
 
-greet_mom = greeting("Mom")
+greet_mom = custom_greeting("Mom")
 puts greet_mom # should print: 'Good morning Mom!' to the console.
 
-greet_partner = greeting("my love")
+greet_partner = custom_greeting("my love")
 puts greet_partner # should print: 'Good morning my love!' to the console
 
 # What is the return value of your method? The return value of the greeting method is the string "Good morning #{name}!".
@@ -41,7 +41,7 @@ def greet_person(first,middle,last)
 end
 
 greet_beyonce = greet_person("Beyonce","Giselle","Knowles")
-puts greet_twin # Should print the string: Is your full name Beyonce Giselle Knowles?
+puts greet_beyonce # Should print the string: Is your full name Beyonce Giselle Knowles?
 
 greet_rihanna = greet_person("Robyn","Rihanna","Fenty")
 puts greet_rihanna # Should print the string: Is your full name Robyn Rihanna Fenty?
